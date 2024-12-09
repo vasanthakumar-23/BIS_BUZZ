@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  
+  margin: 0;
+  padding: 0;
+}
+
+.green{
+  background-color: green;
+  width: 90px;
+  margin: 0px 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.red{
+  background-color: red;
+  width: 90px;
+  margin: 0px 5px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.select{
+  background-color: green;
+  width: 90px;
+  margin:0px 110px 0px -30px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.home{
+  background-image: url('../src/images/background/start.png');
+  height:100vh;
+  object-fit:cover;
+}
+
+.game{
+  background-image: url('../src/images/background/game.png');
+  height:100vh;
+
+  object-fit:cover;
+  
+}
+.start{
+  background-image: url('../src/images/background/cat.png');
+  height:100vh;
+  object-fit:cover;
+  
+}
+.door2{
+  background-image: url('../src/images/img/door2.png');
+  object-fit: cover;
+  
+}
+.door3{
+  background-image: url('../src/images/img/door3.png');
+  object-fit: cover;
+}
+
+.room3{
+  background-image: url('../src/images/background/room3.png');
+  object-fit: cover;
+}
